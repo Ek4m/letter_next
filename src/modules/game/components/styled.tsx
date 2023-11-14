@@ -72,8 +72,8 @@ export const StartingLoader = styled.div`
 export const MyPlayerContainer = styled.div`
   width: 100%;
   display: flex;
-  flex-direction: column;
   align-items: flex-end;
+  justify-content: space-between;
   padding: 2rem;
 `;
 
@@ -111,5 +111,34 @@ export const OtherPlayersContainer = styled.div`
 
 export const TableContainer = styled.div`
   width: 100%;
+  height: 100%;
+  overflow-y: scroll;
   padding: 1rem;
+`;
+
+export const TurnSign = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 6px 1px black inset;
+  border: 2px solid white;
+  background-color: orange;
+`;
+
+export const GameCards = styled.div`
+  padding: 1rem;
+  display: flex;
+  align-items: flex-start;
+  background-color: ${_colors.red.dark};
+  border-left: 4px solid #7f8c8d;
+  border-right: 4px solid #34495e;
+  border-top: 4px solid #bdc3c7;
+  border-bottom: 4px solid #2c3e50;
+`;
+
+export const GameCardsLength = styled.h1`
+  color: white;
 `;

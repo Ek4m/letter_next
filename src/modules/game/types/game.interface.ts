@@ -24,6 +24,8 @@ export interface IGameDetailed extends IGame {
   users: {
     gameId: number;
     id: number;
+    turn: boolean;
+    drawedCards: ICard[];
     socketId: string;
     userId: number;
     cards: ICard[];
