@@ -1,0 +1,36 @@
+{
+  "name": "letter_frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "antd": "^5.11.1",
+    "axios": "^1.6.1",
+    "formik": "^2.4.5",
+    "js-cookie": "^3.0.5",
+    "next": "14.0.2",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^4.11.0",
+    "react-query": "^3.39.3",
+    "react-transition-group": "^4.4.5",
+    "socket.io-client": "^4.7.2",
+    "styled-components": "^6.1.1"
+  },
+  "devDependencies": {
+    "@types/js-cookie": "^3.0.6",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/react-transition-group": "^4.4.9",
+    "babel-plugin-styled-components": "^2.1.4",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.2",
+    "typescript": "^5"
+  }
+}

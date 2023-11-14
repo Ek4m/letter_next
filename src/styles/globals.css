@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "MedievalSharp", cursive;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.animation-opacity-enter {
+  opacity: 0;
+}
+.animation-opacity-enter-active {
+  opacity: 1;
+  transition: opacity 200ms;
+}
+.animation-opacity-exit {
+  opacity: 1;
+}
+.animation-opacity-exit-active {
+  opacity: 0;
+  transition: opacity 200ms;
+}
